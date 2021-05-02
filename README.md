@@ -13,4 +13,16 @@ If subclass is having same method as base class then it is known as method overr
 | Contructor | Can not be overriden |
 | Static method | Can not be overriden |
 | final method | Can not be overriden |
+
+##Method overloading
+If two or more methods have same name , but different argument then it is called method overloading.
+
+**Rules for method overloading**
+| Argument | Rule Description |
+| --- | --- |
+| Number of Arguments | Overloaded method can have different number of arguments |
+| Data type | Can’t change except for covariant (subtype) returns |
+| Order of arguments | If you change sequence of arguments then it is also valid method overloading provided you have different data types arguments. |
+| Return type | Return type can be changed but either number of argument or data type of argument should also be changed. |
+| Contructor | Can be overloaded |
  
